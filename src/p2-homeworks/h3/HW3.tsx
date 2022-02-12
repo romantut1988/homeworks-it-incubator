@@ -13,9 +13,11 @@ function HW3() {
     const [users, setUsers] = useState<UserType[]>([]) // need to fix any
 
     const addUserCallback = (name: string) => { // need to fix any
-        let user = {_id: v1(), name: name }
-        let newUser = [user, ...users]
-        setUsers(newUser) // need to fix
+        const user = {
+            _id: v1(),
+            name,
+        }
+        setUsers([...users, user]) // need to fix
     }
 
     return (
@@ -26,10 +28,10 @@ function HW3() {
             {/*should work (должно работать)*/}
             <GreetingContainer users={users} addUserCallback={addUserCallback}/>
 
-            {/*<hr/>*/}
+            <hr/>
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeGreeting/>*/}
-            {/*<hr/>*/}
+            <hr/>
         </div>
     )
 }

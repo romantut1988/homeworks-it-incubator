@@ -1,11 +1,13 @@
 import React from 'react'
 import Affair from './Affair'
-import {AffairPriorityType, AffairType} from './HW2'
+import {AffairPriorityType, AffairType, FilterType} from './HW2'
 
 type AffairsPropsType = { // need to fix any
     data: Array<AffairType>
-    setFilter: React.Dispatch<React.SetStateAction<AffairPriorityType>>
-    deleteAffairCallback: (_id: number) => void
+    setFilter: (filter: FilterType) => void
+    // setFilter: React.Dispatch<React.SetStateAction<AffairPriorityType>>
+    deleteAffairCallback: (id: number) => void
+    filter: FilterType
 }
 
 function Affairs(props: AffairsPropsType) {
