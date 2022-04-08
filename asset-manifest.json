@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/romantut1988/homeworks-it-incubator/static/css/main.3eb7a256.chunk.css",
+    "main.js": "/romantut1988/homeworks-it-incubator/static/js/main.2425da38.chunk.js",
+    "main.js.map": "/romantut1988/homeworks-it-incubator/static/js/main.2425da38.chunk.js.map",
+    "runtime-main.js": "/romantut1988/homeworks-it-incubator/static/js/runtime-main.5ea0c80b.js",
+    "runtime-main.js.map": "/romantut1988/homeworks-it-incubator/static/js/runtime-main.5ea0c80b.js.map",
+    "static/js/2.61b8eac6.chunk.js": "/romantut1988/homeworks-it-incubator/static/js/2.61b8eac6.chunk.js",
+    "static/js/2.61b8eac6.chunk.js.map": "/romantut1988/homeworks-it-incubator/static/js/2.61b8eac6.chunk.js.map",
+    "index.html": "/romantut1988/homeworks-it-incubator/index.html",
+    "static/css/main.3eb7a256.chunk.css.map": "/romantut1988/homeworks-it-incubator/static/css/main.3eb7a256.chunk.css.map",
+    "static/js/2.61b8eac6.chunk.js.LICENSE.txt": "/romantut1988/homeworks-it-incubator/static/js/2.61b8eac6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ea0c80b.js",
+    "static/js/2.61b8eac6.chunk.js",
+    "static/css/main.3eb7a256.chunk.css",
+    "static/js/main.2425da38.chunk.js"
+  ]
+}
